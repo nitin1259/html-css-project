@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 body{
     font-family: Helvetica, sans-serif, Arial;
     font-size: 18px;
@@ -32,4 +38,26 @@ h2{
 
 #auther-text {
     font-size: 22px;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+.blog-post{
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+}
+
+.other-blog{
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+
+.auther-blog{
+    border-top: 1px solid grey;
+    padding-top: 20px;
 }
