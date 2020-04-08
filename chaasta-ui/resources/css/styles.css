@@ -37,6 +37,7 @@ section{
 .box p{
     font-size: 90%;
     line-height: 1.45em;
+    text-align: justify;
 }
 /* ------- HEADINGS --------- */
 
@@ -182,3 +183,31 @@ header{
 .main-nav li a:active{
     border-bottom: 1px solid orange;
 }
+
+/*------------------------------------------------------*/
+/* --------- MEALS --------------- */
+/*------------------------------------------------------*/
+
+.meal-showcase{
+    width: 100%;
+    list-style: none;
+
+}
+
+.meal-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+
+}
+
+.meal-figure{
+    width: 100%;
+    margin: 0;
+}
+
+.meal-showcase img{
+    width: 100%;
+    height: auto;
+}
+
