@@ -185,8 +185,20 @@ header{
 }
 
 /*------------------------------------------------------*/
-/* --------- MEALS --------------- */
+/* FEATURES */
 /*------------------------------------------------------*/
+
+.section-feature .long-copy{
+    margin-bottom: 30px;
+}
+
+/*------------------------------------------------------*/
+/* MEALS */
+/*------------------------------------------------------*/
+
+.meal-section{
+    padding-top: 0px;
+}
 
 .meal-showcase{
     width: 100%;
@@ -204,10 +216,21 @@ header{
 .meal-figure{
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: black;
 }
 
 .meal-showcase img{
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transform: transform 0.5s, opacity 0.5s;
 }
+
+.meal-showcase img:hover{
+    opacity: 1;
+    transform: scale(1.03);
+}
+
 
