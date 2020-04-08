@@ -98,6 +98,15 @@ h2:after{
     margin-bottom: 15px;
 }
 
+.icon-small{
+    display:inline-block;
+    width: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
 /*-------- PARAGRAPHS --------  */
 
 .long-copy{
@@ -139,6 +148,25 @@ h2:after{
 .btn-empty:hover,
 .btn-empty:hover{
     color: #fff;
+}
+
+/*------------------------------------------------------*/
+/* LINKS  */
+/*------------------------------------------------------*/
+
+a:link,
+a:visited{
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:visited,
+a:hover{
+    color: #444;
+    border-bottom: 1px solid transparent;
 }
 
 /*------------------------------------------------------*/
@@ -294,4 +322,24 @@ header{
     width: auto;
     height: 50px;
     margin-right: 50px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: none;
+}
+
+
+/*------------------------------------------------------*/
+/* Cities Section */
+/*------------------------------------------------------*/
+
+.box img {
+    height: 150px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
 }
