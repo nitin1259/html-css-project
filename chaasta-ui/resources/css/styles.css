@@ -118,7 +118,8 @@ h2:after{
 /* ------- BUTTONS  --------- */
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     color: #fff;
     display: inline-block;
     padding: 10px 20px;
@@ -130,7 +131,8 @@ h2:after{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: orange;
 }
 
@@ -140,7 +142,9 @@ h2:after{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: rgb(255, 153, 0);
     border: 1px solid rgb(255, 153, 0);
 }
@@ -440,4 +444,36 @@ cite img{
 
 .plain-price-meal {
     font-size: 80%;
+}
+
+/*------------------------------------------------------*/
+/* Contact FORM Section */
+/*------------------------------------------------------*/
+
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+
+*:focus{
+    outline: none;
 }
