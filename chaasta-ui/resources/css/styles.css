@@ -179,6 +179,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -342,4 +343,101 @@ header{
 
 .city-feature{
     margin-bottom: 5px;
+}
+
+/*------------------------------------------------------*/
+/* Customer Testimonials Section */
+/*------------------------------------------------------*/
+
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color:#fff;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    word-spacing: 2px;
+    line-height: 1.45em;
+    position: relative;
+    margin-top: 50px;
+}
+
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*------------------------------------------------------*/
+/* Plans Section */
+/*------------------------------------------------------*/
+
+.section-plans{
+    background-color: rgb(248, 248, 248);
+}
+
+.plan-box{
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #fff;
+}
+
+.plan-box div{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 15px;
+}
+
+.plan-box div:first-child{
+    background-color: rgb(242, 242, 242);
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-box div ul{
+    list-style: none;
+}
+
+.plan-box div ul li{
+    margin: 2px;
+}
+
+
+.plan-price{
+    font-size: 300%;
+    font-weight: 100;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+    color: #444;
+}
+
+.plain-price-meal {
+    font-size: 80%;
 }
