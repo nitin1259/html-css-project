@@ -386,3 +386,58 @@ cite img{
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/*------------------------------------------------------*/
+/* Plans Section */
+/*------------------------------------------------------*/
+
+.section-plans{
+    background-color: rgb(248, 248, 248);
+}
+
+.plan-box{
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #fff;
+}
+
+.plan-box div{
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 15px;
+}
+
+.plan-box div:first-child{
+    background-color: rgb(242, 242, 242);
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-box div ul{
+    list-style: none;
+}
+
+.plan-box div ul li{
+    margin: 2px;
+}
+
+
+.plan-price{
+    font-size: 300%;
+    font-weight: 100;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+    color: #444;
+}
+
+.plain-price-meal {
+    font-size: 80%;
+}
